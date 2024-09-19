@@ -4,6 +4,7 @@ public class Main
     {
         int intOperandA = 26;
         int intOperandB = 16;
+
         int intSum = 0;
         int intProduct = 0;
         int intQuotient = 0;
@@ -22,7 +23,6 @@ public class Main
         System.out.println("The remainder of " + intOperandA + " and " + intOperandB + " is " + intModulo);
 
 
-
         double doubleOperandA = 14.18;
         double doubleOperandB = 3.14;
 
@@ -33,11 +33,14 @@ public class Main
         double doubleModulo = 0;
 
         doubleSum = doubleOperandA + doubleOperandB;
-        System.out.println();
-
-        // complete this for the doubles
-
-
-
+        System.out.println("The sum of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+        doubleProduct = doubleOperandA * doubleOperandB;
+        System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+        doubleQuotient = doubleOperandA / doubleOperandB;
+        System.out.println("The quotient of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+        doubleDifference = doubleOperandA - doubleOperandB;
+        System.out.println("The difference of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+        doubleModulo = doubleOperandA % doubleOperandB;
+        System.out.println("The remainder of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
     }
 }
