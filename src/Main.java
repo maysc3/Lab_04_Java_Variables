@@ -42,5 +42,14 @@ public class Main
         System.out.println("The difference of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
         doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The remainder of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
+
+        // more variables
+        int kidsInFam = 0;
+        boolean isRaining = false;
+        double gasPricePergal = 3.17;
+        int favNum = 17;
+        double shoeSize = 8.5;
+        int birthMonth = 8;
+        String fullName = "Corey Mays";
     }
 }
